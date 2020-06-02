@@ -1,6 +1,6 @@
 <?php
 
-namespace CommonCas\Tests;
+namespace Tests;
 
 use CommonCas\App\CasEnum;
 use CommonCas\App\CasException;

@@ -1,6 +1,6 @@
 {
     "name": "hxc/my-composer",
-    "description": "hxctest",
+    "description": "hxctest1",
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "^6.5",
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "HxcTest\\": "src/"
+            "NewHxcTest\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "hxc",
+            "name": "hxc-new",
             "email": "173315279@qq.com"
         }
     ]
