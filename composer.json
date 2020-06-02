@@ -1,5 +1,5 @@
 {
-    "name": "hxc-new/my-composer",
+    "name": "hxc-new/my-new-composer",
     "description": "hxctest1",
     "require": {
         "php": ">=5.4.0",
@@ -20,8 +20,6 @@
             "email": "173315279@qq.com"
         }
     ]
-
-
 }
 
 
