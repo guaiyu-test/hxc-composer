@@ -1,5 +1,5 @@
 {
-    "name": "hxc/my-composer",
+    "name": "hxc-new/my-composer",
     "description": "hxctest1",
     "require": {
         "php": ">=5.4.0",
