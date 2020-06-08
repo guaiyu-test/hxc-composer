@@ -3,7 +3,7 @@
     "description": "hxctest1",
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "^6.5",
+        "guzzlehttp/guzzle": "~6.0",
         "league/csv": "^9.0@dev"
     },
     "require-dev": {
