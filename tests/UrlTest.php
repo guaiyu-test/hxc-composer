@@ -7,7 +7,6 @@
  */
 namespace Tests;
 
-use App\Scanner;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends  TestCase{
@@ -21,8 +20,26 @@ class UrlTest extends  TestCase{
             'http://www.baidu.com',
         ];
 
-        $data = new Scanner($url);
+        $data = new \App\Scanner($url);
 
-        $data = $data->getStatusCodeForUrl();
+        $res = $data->getInvalidUrls();
+        $this->assertEmpty($res);
+        return $res;
+    }
+
+    /**
+     * author hxc
+     */
+    public function testUrlErrorCase()
+    {
+        $url = [
+            'http://www.baidu1.com',
+        ];
+
+        $data = new \App\Scanner($url);
+
+        $res = $data->getInvalidUrls();
+        $this->assertNotEmpty($res);
+        return $res;
     }
 }
