@@ -1,5 +1,5 @@
 <?php
-namespace NewHxcTest;
+namespace App;
 
 use GuzzleHttp\Client;
 

@@ -7,6 +7,22 @@
  */
 namespace Tests;
 
-class UrlTest extends {
+use App\Scanner;
+use PHPUnit\Framework\TestCase;
 
+class UrlTest extends  TestCase{
+
+    /**
+     * author hxc
+     */
+    public function testUrlCase()
+    {
+        $url = [
+            'http://www.baidu.com',
+        ];
+
+        $data = new Scanner($url);
+
+        $data = $data->getStatusCodeForUrl();
+    }
 }
